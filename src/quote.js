@@ -1,8 +1,8 @@
-const Quote = ({ quote, author }) => {
+const Quote = ({ quote}) => {
     return (
       <div className="quote">
-        <p>{quote}</p>
-        <p>{author}</p>
+        <p>{quote.quote}</p>
+        <p>{quote.author}</p>
       </div>
     );
   };
