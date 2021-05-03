@@ -7,16 +7,15 @@ body {
 .App {
   font-family: sans-serif;
   text-align: center;
-  background-color: #fb6542;
   height: 100vh;
   display: flex;
 }
 
-.main-card {
+.quoteBox {
   display: flex;
   flex-direction: column;
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 500px;
   border-radius: 10px;
   margin: auto;
   background-color: #ffbb00;
@@ -44,7 +43,7 @@ body {
   width: 90%;
   margin: auto;
   font-size: 25px;
-  color: rgb(134, 85, 10);
+  color: white;
 }
 
 .icon-twitter {

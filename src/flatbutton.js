@@ -1,7 +1,7 @@
-const Flatbutton = ({func}) => {
+  const Flatbutton = ({ func }) => {
     return (
-      <button className="flatbutton" onclick = {func}>
-        <p>Next Quote</p>
+      <button className="flatbutton" onClick={func}>
+        Next Quote
       </button>
     );
   };
