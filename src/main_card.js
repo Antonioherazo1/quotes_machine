@@ -19,7 +19,9 @@ const MainCard = () => {
       <Quote quote={quote} />
       <div className=" bottom-row">
         <TwitterIcon />
-        <FlatButton func = {handleQuote()} />
+        <FlatButton 
+            // func = {handleQuote()} 
+        />
       </div>
     </div>
   );
